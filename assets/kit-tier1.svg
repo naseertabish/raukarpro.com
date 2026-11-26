@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" fill="none">
+  <defs>
+    <linearGradient id="bgT1" x1="0" y1="0" x2="480" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="45%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="280" rx="16" fill="url(#bgT1)"/>
+
+  <!-- Item 1: Heat-Powered Bukhari Stove Fan (Left-Center Hero) -->
+  <g transform="translate(44, 42)">
+    <!-- Heat waves below base -->
+    <path d="M32 184C32 178 40 178 40 172" stroke="#EA580C" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M56 184C56 178 64 178 64 172" stroke="#F59E0B" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M80 184C80 178 88 178 88 172" stroke="#EA580C" stroke-width="2.8" stroke-linecap="round"/>
+    <!-- Base pedestal & heatsink fins -->
+    <rect x="20" y="150" width="80" height="16" rx="4" fill="#1E293B"/>
+    <rect x="38" y="114" width="44" height="36" rx="4" fill="#334155"/>
+    <line x1="42" y1="124" x2="78" y2="124" stroke="#64748B" stroke-width="2.5"/>
+    <line x1="42" y1="132" x2="78" y2="132" stroke="#64748B" stroke-width="2.5"/>
+    <line x1="42" y1="140" x2="78" y2="140" stroke="#64748B" stroke-width="2.5"/>
+    <!-- Fan Blades (4 sleek matte black blades) -->
+    <g transform="translate(60, 74)">
+      <ellipse cx="0" cy="-34" rx="14" ry="30" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <ellipse cx="0" cy="34" rx="14" ry="30" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <ellipse cx="-34" cy="0" rx="30" ry="14" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <ellipse cx="34" cy="0" rx="30" ry="14" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <!-- Center hub -->
+      <circle cx="0" cy="0" r="14" fill="#D97706" stroke="#0F172A" stroke-width="3"/>
+      <circle cx="0" cy="0" r="5" fill="#FEF3C7"/>
+    </g>
+    <!-- Airflow indicator arcs -->
+    <path d="M126 56C136 66 136 82 126 92" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M138 48C152 62 152 86 138 100" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- Item 2: Lithium Solar Lantern & Power Bank (Center-Right) -->
+  <g transform="translate(216, 48)">
+    <!-- Handle -->
+    <path d="M24 22C24 6 72 6 72 22" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+    <!-- Top cap with solar panel hint -->
+    <rect x="14" y="20" width="68" height="22" rx="6" fill="#1E293B"/>
+    <rect x="24" y="26" width="48" height="10" rx="2" fill="#0284C7"/>
+    <!-- Glowing warm lantern glass -->
+    <rect x="18" y="42" width="60" height="72" fill="#FEF3C7" stroke="#1E293B" stroke-width="2.8"/>
+    <circle cx="48" cy="78" r="20" fill="#F59E0B" opacity="0.35"/>
+    <circle cx="48" cy="78" r="10" fill="#F59E0B"/>
+    <!-- Base with USB powerbank port -->
+    <rect x="12" y="114" width="72" height="46" rx="8" fill="#1E293B"/>
+    <rect x="30" y="128" width="16" height="8" rx="2" fill="#38BDF8"/>
+    <circle cx="62" cy="132" r="4" fill="#16A34A"/>
+    <rect x="26" y="144" width="44" height="5" rx="2.5" fill="#475569"/>
+  </g>
+
+  <!-- Item 3: Stainless Steel Vacuum Thermos (Right) -->
+  <g transform="translate(338, 42)">
+    <!-- Lid cup -->
+    <rect x="14" y="10" width="48" height="28" rx="8" fill="#1E293B"/>
+    <!-- Neck -->
+    <rect x="18" y="38" width="40" height="10" fill="#475569"/>
+    <!-- Brushed steel body -->
+    <rect x="10" y="48" width="56" height="122" rx="10" fill="url(#steelGrad)" stroke="#334155" stroke-width="2.5"/>
+    <!-- Warm stripe accent -->
+    <rect x="10" y="72" width="56" height="12" fill="#D97706"/>
+    <!-- Steam icon -->
+    <path d="M28 112C28 104 38 104 38 96" stroke="#64748B" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M42 112C42 104 52 104 52 96" stroke="#64748B" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Mini Kit + Guide Pill at Bottom -->
+  <rect x="44" y="230" width="392" height="30" rx="15" fill="#FFFFFF" stroke="#FDE68A" stroke-width="2"/>
+  <circle cx="68" cy="245" r="6" fill="#16A34A"/>
+  <path d="M65 245L67.5 247.5L71.5 242.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="84" y="242" width="94" height="6" rx="3" fill="#1E293B"/>
+  <rect x="194" y="242" width="102" height="6" rx="3" fill="#D97706"/>
+  <rect x="312" y="242" width="100" height="6" rx="3" fill="#94A3B8"/>
+</svg>

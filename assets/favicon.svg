@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="warmGrad" x1="20" y1="18" x2="44" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield base -->
+  <path d="M32 4L8 13.5V30.5C8 45.2 18.2 56.8 32 60C45.8 56.8 56 45.2 56 30.5V13.5L32 4Z" fill="url(#shieldGrad)"/>
+  <path d="M32 7.5L11.5 15.6V30.5C11.5 43.3 20.2 53.5 32 56.4C43.8 53.5 52.5 43.3 52.5 30.5V15.6L32 7.5Z" stroke="#334155" stroke-width="1.5"/>
+  <!-- Home roof silhouette -->
+  <path d="M18 31.5L32 20L46 31.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22.5 29.5V43.5C22.5 44.6 23.4 45.5 24.5 45.5H39.5C40.6 45.5 41.5 44.6 41.5 43.5V29.5" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Warmth flame / hearth inside home -->
+  <path d="M32 30.5C32 30.5 36.5 34.2 36.5 38C36.5 40.5 34.5 42.5 32 42.5C29.5 42.5 27.5 40.5 27.5 38C27.5 34.2 32 30.5 32 30.5Z" fill="url(#warmGrad)"/>
+  <circle cx="32" cy="39" r="1.8" fill="#FEF3C7"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" fill="none">
+  <defs>
+    <linearGradient id="bgT2" x1="0" y1="0" x2="480" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="280" rx="16" fill="url(#bgT2)"/>
+  <!-- Subtle warm radial glow behind house -->
+  <circle cx="240" cy="135" r="110" fill="#F59E0B" opacity="0.12"/>
+
+  <!-- Left: Sealed Warm Room Cross-Section -->
+  <g transform="translate(46, 38)">
+    <!-- House frame -->
+    <path d="M0 78L94 12L188 78" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="20" y="74" width="148" height="122" rx="8" fill="#1E293B" stroke="#475569" stroke-width="3"/>
+    <!-- Sealed Window with Thermal Shield -->
+    <rect x="38" y="96" width="54" height="58" rx="4" fill="#38BDF8" fill-opacity="0.22" stroke="#38BDF8" stroke-width="2.5"/>
+    <line x1="65" y1="96" x2="65" y2="154" stroke="#38BDF8" stroke-width="1.5"/>
+    <line x1="38" y1="125" x2="92" y2="125" stroke="#38BDF8" stroke-width="1.5"/>
+    <!-- Mounted CO Alarm on wall -->
+    <rect x="114" y="96" width="36" height="42" rx="6" fill="#FFFFFF"/>
+    <rect x="120" y="102" width="24" height="12" rx="2" fill="#0F172A"/>
+    <circle cx="132" cy="124" r="3.5" fill="#16A34A"/>
+    <!-- Warm hearth / bukhari heat glow inside -->
+    <path d="M132 154C132 154 146 165 146 176C146 183 140 188 132 188C124 188 118 183 118 176C118 165 132 154 132 154Z" fill="url(#amberGlow)"/>
+    <circle cx="132" cy="179" r="4" fill="#FEF3C7"/>
+  </g>
+
+  <!-- Right: Trained Kabul Technician Pro Install Card -->
+  <g transform="translate(268, 46)">
+    <rect x="0" y="0" width="170" height="186" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#334155" stroke-width="2"/>
+    <!-- Shield + Wrench Pro Icon -->
+    <circle cx="85" cy="64" r="38" fill="url(#amberGlow)"/>
+    <!-- Wrench + Checkmark vector -->
+    <path d="M72 64L82 74L102 52" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- 3 Checklist progress bars representing: Seal Windows, Mount CO, Train Family -->
+    <g transform="translate(22, 120)">
+      <circle cx="8" cy="8" r="5" fill="#22C55E"/>
+      <rect x="22" y="5" width="96" height="6" rx="3" fill="#CBD5E1"/>
+      <circle cx="8" cy="28" r="5" fill="#22C55E"/>
+      <rect x="22" y="25" width="84" height="6" rx="3" fill="#CBD5E1"/>
+      <circle cx="8" cy="48" r="5" fill="#22C55E"/>
+      <rect x="22" y="45" width="104" height="6" rx="3" fill="#F59E0B"/>
+    </g>
+  </g>
+</svg>
